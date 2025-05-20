@@ -32,4 +32,4 @@ spring:
         - id: clientMS
           uri: lb://clientMS
           predicates:
-            - Path=/api/v1/client/**
+            - Path=/api/v1/clients/**
