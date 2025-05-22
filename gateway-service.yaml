@@ -37,3 +37,7 @@ spring:
           uri: lb://bookingVoucherMS
           predicates:
             - Path=/api/v1/booking/**
+        - id: feeMS
+          uri: lb://feeMS
+          predicates:
+            - Path=/api/v1/fee/**
