@@ -33,3 +33,7 @@ spring:
           uri: lb://clientMS
           predicates:
             - Path=/api/v1/clients/**
+        - id: bookingVoucherMS
+          uri: lb://bookingVoucherMS
+          predicates:
+            - Path=/api/v1/booking/**
