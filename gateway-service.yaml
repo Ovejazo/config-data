@@ -41,3 +41,15 @@ spring:
           uri: lb://feeMS
           predicates:
             - Path=/api/v1/fee/**
+        - id: frecuencyClentsMS
+          uri: lb://frecuencyClentsMS
+          predicates:
+            - Path=/api/v1/frecuency/**
+        - id: especialDayMS
+          uri: lb://especialDayMS
+          predicates:
+            - Path=/api/v1/especialDay/**
+        - id: personNumberMS
+          uri: lb://personNumberMS
+          predicates:
+            - Path=/api/v1/personNumber/**
