@@ -59,3 +59,8 @@ spring:
           uri: lb://rackSemanalMS
           predicates:
             - Path=/api/v1/rack/**
+
+          id: ReportMS
+          uri: lb://ReportMS
+          predicates:
+            - Path=/api/v1/report/**
