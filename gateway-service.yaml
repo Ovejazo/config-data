@@ -60,7 +60,7 @@ spring:
           predicates:
             - Path=/api/v1/rack/**
 
-          id: ReportMS
+        - id: ReportMS
           uri: lb://ReportMS
           predicates:
             - Path=/api/v1/report/**
